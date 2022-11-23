@@ -12,26 +12,17 @@
         <h1>Sistemas de recomendación</h1> 
         <div>
           <div class="col-3 mb-3">
-            <label class="form-label">Elija la métrica a usar:</label>
-            <select id="metrica" class="mb-3 form-select" required>
-              <option value="" disabled selected>Escoja una opción</option>
-              <option value="1">Correlación de Pearson</option>
-              <option value="2">Distancia coseno</option>
-              <option value="3">Distancia euclídea</option>
-            </select>
+            <label class="form-label">Escoja el fichero con los documentos:</label>
+            <input id="ruta" type="file" class="form-control" required>
           </div>
 
           <div class="col-3 mb-3">
-            <label class="form-label">Elija el tipo de predicción:</label>
-            <select id="tipo_prediccion" class="mb-3 form-select" required>
-              <option value="" disabled selected>Escoja una opción</option>
-              <option value="1">Simple</option>
-              <option value="2">Diferencia con la media</option>
-            </select>
+            <label class="form-label">Escoja el fichero de stop words:</label>
+            <input id="ruta" type="file" class="form-control" required>
           </div>
 
           <div class="col-3 mb-3">
-            <label class="form-label">Escoja el fichero de datos:</label>
+            <label class="form-label">Escoja el fichero de lematización:</label>
             <input id="ruta" type="file" class="form-control" required>
           </div>
 
