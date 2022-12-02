@@ -26,22 +26,24 @@
             <input id="corpus" type="file" class="form-control">
           </div>
 
-          <div class="col-3 mb-3">
-            <label class="form-label">Establece el idioma:</label>
-            <select id="idioma" class="mb-3 form-select">
-              <option value="" disabled selected>Escoja una opción</option>
-              <option value="1">Español</option>
-              <option value="2">Inglés</option>
-            </select>
-          </div>
-
           <div>
             <button type="button" onclick="main()" class="btn btn-primary col-auto">Ejecutar</button>
           </div>
 
           <div>
-            <p id="print_matriz"></p>
+            <table id="tabla" class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Indice</th>
+                  <th>Término</th>
+                  <th>TF</th>
+                  <th>IDF</th>
+                  <th>TF-IDF</th>
+                </tr>
+              </thead>
+            </table>
           </div>
+          <p id="similitudes"></p>
         </div> 
         <script type="text/javascript" src="operaciones.js"></script>
     </body>
