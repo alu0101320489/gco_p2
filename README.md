@@ -28,3 +28,45 @@ Estas son las siguientes:
  
   #### Parametros introducidos:
   
+   * Fichero con los documentos: document1.txt
+   * Fichero de los stopwords: stopwords.txt
+   * Fichero de lematizacion: corpus.txt
+   
+  #### Parametros de salida: 
+  
+  * Tabla del document 1
+
+   Indice	Término	TF	IDF	TF-IDF
+   0	aromas	1	1	1
+   1	include	1	1	1
+   2	tropical	1	1	1
+   3	fruit	1	1	1
+   4	broom	1	1	1
+   5	brimstone	1	1	1
+   6	dried	1.3010299956639813	1	1.3010299956639813
+   7	herb	1	1	1
+   8	palate	1	1	1
+   9	overly	1	1	1
+   10	expressive	1	1	1
+   11	offer	1	1	1
+   12	unripened	1	1	1
+   13	apple	1	1	1
+   14	citrus	1	1	1
+   15	dried	1.3010299956639813	1	1.3010299956639813
+   16	sage	1	1	1
+   17	brisk	1	1	1
+   18	acidity	1	1	1
+
+  * Similitud del coseno:
+
+    2: 0.8600
+    3: 0.9331
+    4: 0.9047
+    5: 0.8113
+    6: 0.7995
+    7: 0.9455
+    8: 0.8228
+    9: 0.9320
+    10: 0.9525
+
+  
